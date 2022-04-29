@@ -11,7 +11,7 @@ public class User {
    private Long id;
 
    @OneToOne(cascade = CascadeType.ALL)
-   @JoinColumn(name = "car_id")
+   @JoinColumn(name = "cars_id")
    private Car car;
 
    @Column(name = "name")
